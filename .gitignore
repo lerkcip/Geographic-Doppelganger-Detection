@@ -1,0 +1,38 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.env
+.venv
+env/
+venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Large data files
+*.zip
+*.csv
+*.xlsx
+*.xls
+*.json
+*.shp
+*.shx
+*.dbf
+*.prj
+*.tif
+*.mp4
+*.mp3
+
+# Directories not to include
+cache/
+logs/
+
+# Output
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
